@@ -6,7 +6,7 @@ export const environment = {
   production: false,
   // apiUrl: 'http://localhost:3000',
   // apiUrl: 'http://13.57.230.104:3000'
-  apiUrl: 'https://lms-dev-api.digital-lync.com:3000'
+  apiUrl: 'https://api.sameera.sayerameshbabu.com'
 };
 
 /*
