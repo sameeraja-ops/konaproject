@@ -7,7 +7,7 @@ pipeline {
                 node('docker') {   
                 sh 'mkdir /home/sysadmin/maincode'
                 sh '(cd /home/sysadmin/maincode && git pull --all) || (cd /home/sysadmin/maincode && git clone https://github.com/sameeraja-ops/konaproject.git)'
-                sh 'echo $(BUILD_ID) '
+                  sh 'echo ${BUILD_ID} '
             }
             }
             }
