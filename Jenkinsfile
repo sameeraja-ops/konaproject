@@ -6,7 +6,7 @@ pipeline {
             steps {
                 node('docker') {    
                 sh 'cd /home/sysadmin && git clone https://github.com/sameeraja-ops/konaproject.git'
-                sh 'echo "$(BUILD_ID)"'
+                sh 'echo $(BUILD_ID) '
             }
             }
             }
